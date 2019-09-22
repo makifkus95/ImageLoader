@@ -9,7 +9,10 @@ public class App
     public static Scanner sc = new Scanner(System.in);
     public static void main( String[] args ) throws IOException {
 
-        String[] array = {"https://up.picr.de/30443424jo.png"};
+        String[] array = {"https://up.picr.de/30443424jo.png",
+                "https://www.animod.de/magazin/wp-content/uploads/2019/02/Amsterdam-H%C3%A4user-und-Basilika-St-Nikolaus.jpg",
+        "https://img-fotki.yandex.ru/get/9061/125352602.265/0_e6322_52d06b41_XL.jpg",
+        "https://cdn.chip.gen.tr/images/content/20101009161302/resim-formatlari-ve-gercekler.jpg"};
 
         String fileName;
         for (String array1 : array) {

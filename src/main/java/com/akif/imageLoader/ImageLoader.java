@@ -17,7 +17,7 @@ public class ImageLoader {
         ByteArrayOutputStream baos = new ByteArrayOutputStream(); // baos adında byte dizisi oluşturduk
         ImageIO.write( bufImage, "png", baos );//bufImage değişkeninde olan resimin byte verilerini baos'a yazdırdık
 
-        byte[] imageInByte = baos.toByteArray();
+        byte[] imageInByte = baos.toByteArray(); //bytestreamlerini elde ettik
         fileOutputStream.write(imageInByte);//baos resminin byte verisini dosyaya yazdırdık
 
         float width = bufImage.getWidth();

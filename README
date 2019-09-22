@@ -1,3 +1,5 @@
-+String veri tipi olan bir dizide(array), png uzantılı URL adresi vardır. yani resim.
-+Bu resim ilk önce orjinal olarak bir dosyaya kayıt ediliyor. Eğer resim boyutu(weight,height)
- 300'den büyük ise; resim boyutunu orjinal resmin oranı bozulmadan küçültülüyor ve kayıt ediliyor.
++Veri tipi String olan bir dizide(array), farkılı uzantılarda ki URL adresleri(jpg,png) vardır. bu linklerde resim bulunur.
++Bu resim ilk önce orjinal olarak; yolunu verdiğimiz bir dosyaya kayıt ediliyor. Eğer resim boyutu(weight,height)
+ 300'den büyük ise; resim boyutunu orjinal resmin kalitesi bozulmadan resmi küçülterek yine yolunu verdiğimiz farklı bir dosyaya kayıt ediliyor.
+
++Proje dizini:src/main/com.akif.imageLoader/
